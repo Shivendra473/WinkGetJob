@@ -1,4 +1,5 @@
 # WinkGetJob — Project Documentation
+Note: This document is a demonstration of a project from a private repository in my GitHub profile and is shared for informational purposes only.
 
 ## Overview
 
