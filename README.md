@@ -11,7 +11,7 @@ This repository (`winkgetjob`) is the **frontend web application** — a Next.js
 |------|-------|
 | **Project name** | `winkgetjob` |
 | **Version** | `0.1.0` |
-| **Primary URL (dev)** | `http://localhost:3000` |
+| **Primary URL (dev)** | `https://winkgetjob.vercel.app` |
 | **Backend URL (prod)** | `https://winkget-backend.vercel.app` |
 | **Currency** | INR (₹) — monetary values stored in paise on the backend |
 
@@ -255,7 +255,7 @@ Detailed specs live in `docs/`:
 
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
-| `BACKEND_URL` | No | `http://localhost:5000` | Backend API base URL |
+| `BACKEND_URL` | No | `https://winkget-backend.vercel.app` | Backend API base URL |
 | `NODE_ENV` | Auto | — | `production` enables secure cookies |
 
 Example (`.env.production`):
@@ -272,7 +272,7 @@ BACKEND_URL=https://winkget-backend.vercel.app
 
 - Node.js 20+
 - npm (or yarn/pnpm/bun)
-- Running `winkget-backend` locally (default `http://localhost:5000`) for full functionality
+- Running `winkget-backend` locally (default `https://winkget-backend.vercel.app`) for full functionality
 
 ### Commands
 
@@ -296,7 +296,7 @@ npm run lint
 ### Local Setup
 
 1. Clone the repository
-2. Create `.env.local` with `BACKEND_URL=http://localhost:5000` (or your backend URL)
+2. Create `.env.local` with `BACKEND_URL=https://winkget-backend.vercel.app` (or your backend URL)
 3. Start the backend service
 4. Run `npm run dev`
 
